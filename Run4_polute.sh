@@ -3,7 +3,7 @@
 # 默认参数
 DEFAULT_INPUT_DIR="Run2_trim"
 DEFAULT_OUTPUT_DIR="Run4_pollute"
-DEFAULT_DB_PATH="/data5/maolp/All_Zhuyue_ScHIC/Down/kdb"
+DEFAULT_DB_PATH="/home/maolp/data5/All_zhuyue_inluolab/kdb"
 DEFAULT_THREADS=8
 DEFAULT_CONDA_ENV="kraken2"  # 默认 Conda 环境名称
 
