@@ -1,4 +1,4 @@
-# Kraken2 Processing Script
+# Kraken2Polute
 
 This repository contains a Bash script for processing paired-end sequencing data using Kraken2, a taxonomic sequence classifier. The script automates the steps of activating a Conda environment, processing sequencing files, and generating reports.
 
@@ -56,6 +56,26 @@ Run the script with optional parameters:
 
 ```bash
 ./kraken2_processing.sh -i my_input_dir -o my_output_dir -d /path/to/kraken_db
+```
+
+## plots
+
+Then run the script using the command line with the following options:
+
+```bash
+python script_name.py -i <input_directory> -o <output_directory> -t <threshold>
+```
+
+### Arguments
+
+- `-i`, `--input_dir`: The directory containing `.kraken.report` files. Default is `Run4_pollute`.
+- `-o`, `--output_dir`: The directory where the generated pie chart figures will be saved. Default is `Plots`.
+- `-t`, `--threshold`: The percentage threshold for merging small classifications into an "Others" category. Default is `1.0`.
+
+### Example
+
+```bash
+python script_name.py -i my_reports -o my_charts -t 0.5
 ```
 
 
