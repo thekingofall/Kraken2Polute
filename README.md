@@ -27,7 +27,7 @@ This repository contains a Bash script for processing paired-end sequencing data
 4. **Clone this repository**:
    ```bash
    git clone <repository-url>
-   cd <repository-directory>
+   cd Kraken2Polute
    ```
 
 5. **Make the script executable**:
@@ -63,7 +63,7 @@ Run the script with optional parameters:
 Then run the script using the command line with the following options:
 
 ```bash
-python script_name.py -i <input_directory> -o <output_directory> -t <threshold>
+python Kraken2Polute_plots.py -i <input_directory> -o <output_directory> -t <threshold>
 ```
 
 ### Arguments
