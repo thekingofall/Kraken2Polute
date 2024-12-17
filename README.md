@@ -58,11 +58,4 @@ Run the script with optional parameters:
 ./kraken2_processing.sh -i my_input_dir -o my_output_dir -d /path/to/kraken_db
 ```
 
-## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Acknowledgments
-
-- Kraken2 developers for their excellent software.
-- Mamba developers for providing a faster package manager.
